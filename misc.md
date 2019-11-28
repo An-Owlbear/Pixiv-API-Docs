@@ -1,9 +1,10 @@
-# Pre Login
+# Miscellaneous
 
 ## https://app-api.pixiv.net/v1/emoji
+
 Retrieves json containing a list of emojis, their names, id and urls.
 
-**Example response:**
+### Example response:
 
 ```json
 {
@@ -31,9 +32,11 @@ Retrieves json containing a list of emojis, their names, id and urls.
 ```
 
 ## https://app-api.pixiv.net/v1/walkthrough/illusts
+
 Retrieves a list of images to show to a new user.
 
-**Example reponse:**
+### Example reponse:
+
 ```json
 {
     "illusts": [
@@ -100,3 +103,13 @@ Retrieves a list of images to show to a new user.
     "next_url":null
 }
 ```
+
+## https://app-api.pixiv.net/v1/notification/user/register
+
+Regestres the user's time zone so they can get notificatons.
+
+### Parameters
+
+timezone_offset - popular; following
+
+disable_notifications
