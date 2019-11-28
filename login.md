@@ -6,21 +6,21 @@ Requests a login token from the server.
 
 ### Parameters
 
-client_id - MOBrBDS8blbauoSck0ZfDbtuzpyT
+client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`
 
-client_secret - lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj
+client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`
 
-grant_type
+grant_type - `password`
 
 username - Your username
 
 password - Your password
 
-device_token - pixiv
+device_token - `pixiv`
 
-secure_url
+secure_url - `true` `false`
 
-inclulde_policy
+inclulde_policy - `true` `false`
 
 ### Example Response
 

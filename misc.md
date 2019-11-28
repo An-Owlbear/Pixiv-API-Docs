@@ -110,6 +110,6 @@ Regestres the user's time zone so they can get notificatons.
 
 ### Parameters
 
-timezone_offset - popular; following
+timezone_offset 
 
-disable_notifications
+disable_notifications - `true` `false`

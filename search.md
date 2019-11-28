@@ -6,17 +6,17 @@ Retrieves a list of illustrations from the specified search terms.
 
 ### Parameters
 
-filter
+filter - `for_android`
 
-include_translated_tag_results
+include_translated_tag_results - `true` `false`
 
-merge_plain_keyword_results
+merge_plain_keyword_results - `true` `false`
 
 word
 
-sort - `date_desc; date_asc`
+sort - `date_desc` `date_asc`
 
-search_target - `partial_match_for_tags; exact_match_for_tags; title_and_caption`
+search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
 
 start_date
 
@@ -155,15 +155,15 @@ Retrieves a list of novels from the specified search terms.
 
 ### Parameters
 
-include_translated_tag_results
+include_translated_tag_results - `true` `false`
 
-merge_plain_keyword_results
+merge_plain_keyword_results - `true` `false`
 
 word
 
-sort - `date_desc; date_asc`
+sort - `date_desc` `date_asc`
 
-search_target - `partial_match_for_tags; exact_match_for_tags; title_and_caption`
+search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
 
 ### Example Response
 
@@ -388,5 +388,3 @@ word - `らいふ`
     "next_url": null
 }
 ```
-
-
