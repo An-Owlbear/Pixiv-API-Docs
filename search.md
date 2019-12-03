@@ -4,6 +4,8 @@
 
 Retrieves a list of illustrations from the specified search terms.
 
+**Requires authorisation header.**
+
 ### Parameters
 
 filter - `for_android`
@@ -153,6 +155,8 @@ search_target - `partial_match_for_tags`
 
 Retrieves a list of novels from the specified search terms.
 
+**Requires authorisation header.**
+
 ### Parameters
 
 include_translated_tag_results - `true` `false`
@@ -275,6 +279,8 @@ search_target - `partial_match_for_tags`
 ## https://app-api.pixiv.net/v1/search/user
 
 Retrieves a list of users from the specified search terms
+
+**Requires authorisation header.**
 
 ### Parameters
 
