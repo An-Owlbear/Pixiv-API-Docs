@@ -4,6 +4,8 @@
 
 Retrieves information about the specified Illustration or Manga.
 
+**Requires authorisation header**
+
 ### Parameters
 
 filter - `for_android`
@@ -98,6 +100,8 @@ illust_id - `78127058`
 
 Retrieves for comments on the specified illustration or manga.
 
+**Requires authorisation header**
+
 ### Parameters
 
 illust_id -  e.g. `123456`
@@ -139,6 +143,8 @@ illust_id - `78127058`
 
 Retrieves the replies of the specified comment.
 
+**Requires authorisation header**
+
 ### Parameters
 
 comment_id - e.g. `123456`
@@ -176,6 +182,8 @@ comment_id - `94926629`
 ## https://app-api.pixiv.net/v2/novel/detail
 
 Retrieves information about the specified novel.
+
+**Requires authorisation header**
 
 ### Parameters
 
@@ -267,6 +275,8 @@ novel_id - `12035664`
 
 Retrieves a list of comments of the specified novel
 
+**Requires authorisation header**
+
 ### Parameters
 
 novel_id - e.g. `123456`
@@ -307,6 +317,8 @@ novel_id - `12035664`
 
 Retrieves a list of replies to the specified comment of a novel.
 
+**Requires authorisation header**
+
 ### Parameters
 
 commend_id - e.g. `123456`
@@ -320,7 +332,23 @@ comment_id - `23848124`
 **Response**
 
 ```json
-
+{
+    "comments": [
+        {
+            "id": 23848566,
+            "comment": "(╭☞•́⍛•̀)╭☞それな\n兄上は神様。\n異論は認めない。",
+            "date": "2019-12-10T17:05:00+09:00",
+            "user": {
+                "id": 14433930,
+                "name": "フラミンゴ",
+                "account": "rinrinpct",
+                "profile_image_urls": {
+                    "medium": "https://s.pximg.net/common/images/no_profile.png"
+                }
+            },
+            "has_replies": false
+        }
+    ],
+    "next_url": null
+}
 ```
-
-

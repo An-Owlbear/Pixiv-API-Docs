@@ -4,6 +4,8 @@
 
 Gets information about the specified user.
 
+**Requires authorisation header**
+
 ### Parameters
 
 filter - `for_android`
@@ -87,6 +89,8 @@ user_id - `24970193`
 ## https://app-api.pixiv.net/v1/user/illusts
 
 Retrieves a list of the illustrations and manga by the specified user.
+
+**Requires authorisation header**
 
 ### Parameters
 
@@ -239,6 +243,8 @@ type - `illust`
 
 Gets a list of novels from the specified user.
 
+**Requires authorisation header**
+
 ### Parameters
 
 user_id - e.g. `24970193`
@@ -313,6 +319,8 @@ user_id - `24970193`
 ## https://app-api.pixiv.net/v1/user/bookmarks/illust
 
 Retrieves the user's bookarmed illustrations and manga
+
+**Requires authorisation header**
 
 ### Parameters
 
@@ -401,6 +409,8 @@ restrict - `public`
 
 Retrieves a list of the specified user's bookmarked novels.
 
+**Requires authorisation header**
+
 ### Parameters
 
 user_id - `4599056`
@@ -484,6 +494,8 @@ restrict - `public`
 ## https://app-api.pixiv.net/v1/user/follower
 
 Retrieves a list of followers of the user signed in, this is the case regardless of the user_id provided.
+
+**Requires authorisation header**
 
 ### Parameters
 
@@ -699,6 +711,8 @@ restrict - `public`
 ## https://app-api.pixiv.net/v1/user/mypixiv
 
 Retrieves a list of users from the specified user's my pixiv list.
+
+**Requires authorisation header**
 
 ### Parameters
 
