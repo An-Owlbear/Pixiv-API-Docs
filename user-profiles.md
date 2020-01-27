@@ -232,7 +232,7 @@ type - `illust`
             "total_comments": 11
         },
         {
-            "etc", "etc"
+            "etc": "etc"
         }
     ],
     "next_url": null
@@ -398,7 +398,7 @@ restrict - `public`
             "is_muted": false
         },
         {
-            "etc", "etc"
+            "etc": "etc"
         }
     ],
     "next_url": "https://app-api.pixiv.net/v1/user/bookmarks/illust?user_id=24970193&restrict=public&max_bookmark_id=6638389887"
@@ -515,97 +515,97 @@ user_id - `[user id]`
 
 ```json
 {
-    "user_previews": [
+  "user_previews": [
+    {
+      "user": {
+        "id": 42094327,
+        "name": "ろんや",
+        "account": "user_rzrh7237",
+        "profile_image_urls": {
+          "medium": "https://i.pximg.net/user-profile/img/2019/11/20/20/01/58/16564604_e9ce58d3d24c115b785deda765a4d665_170.jpg"
+        },
+        "is_followed": false
+      },
+      "illusts": [
         {
-            "user": {
-                "id": 42094327,
-                "name": "ろんや",
-                "account": "user_rzrh7237",
-                "profile_image_urls": {
-                    "medium": "https://i.pximg.net/user-profile/img/2019/11/20/20/01/58/16564604_e9ce58d3d24c115b785deda765a4d665_170.jpg"
-                },
-                "is_followed": false
+          "id": 77897831,
+          "title": "賢者と聖母の拾い子はかく祝う",
+          "type": "manga",
+          "image_urls": {
+            "square_medium": "https://i.pximg.net/c/540x540_10_webp/img-master/img/2019/11/19/23/45/28/77897831_p0_square1200.jpg",
+            "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2019/11/19/23/45/28/77897831_p0_master1200.jpg",
+            "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2019/11/19/23/45/28/77897831_p0_master1200.jpg"
+          },
+          "caption": "サーかばが「人と動物”コンビのアニメキャラといえば？ 」ランキング3位入りのお祝い。<br /><br />やはり、この二人は素敵なコンビだ。二人の絆は永遠…決して廃れない輝きをもっている。決して別れたりしない。<br />呪詛から生まれた祝福の子が後の開拓者となるイエイヌ達を救ったように、かざりちゃんにその事を証明するような子に、二人の命綱になって欲しいって思うんだ。<br /><br />サーかばはずっとトゥギャザー!<br />けものフレンズはフォーエバー!",
+          "restrict": 0,
+          "user": {
+            "id": 42094327,
+            "name": "ろんや",
+            "account": "user_rzrh7237",
+            "profile_image_urls": {
+              "medium": "https://i.pximg.net/user-profile/img/2019/11/20/20/01/58/16564604_e9ce58d3d24c115b785deda765a4d665_170.jpg"
             },
-            "illusts": [
-                {
-                    "id": 77897831,
-                    "title": "賢者と聖母の拾い子はかく祝う",
-                    "type": "manga",
-                    "image_urls": {
-                        "square_medium": "https://i.pximg.net/c/540x540_10_webp/img-master/img/2019/11/19/23/45/28/77897831_p0_square1200.jpg",
-                        "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2019/11/19/23/45/28/77897831_p0_master1200.jpg",
-                        "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2019/11/19/23/45/28/77897831_p0_master1200.jpg"
-                    },
-                    "caption": "サーかばが「人と動物”コンビのアニメキャラといえば？ 」ランキング3位入りのお祝い。<br /><br />やはり、この二人は素敵なコンビだ。二人の絆は永遠…決して廃れない輝きをもっている。決して別れたりしない。<br />呪詛から生まれた祝福の子が後の開拓者となるイエイヌ達を救ったように、かざりちゃんにその事を証明するような子に、二人の命綱になって欲しいって思うんだ。<br /><br />サーかばはずっとトゥギャザー!<br />けものフレンズはフォーエバー!",
-                    "restrict": 0,
-                    "user": {
-                        "id": 42094327,
-                        "name": "ろんや",
-                        "account": "user_rzrh7237",
-                        "profile_image_urls": {
-                            "medium": "https://i.pximg.net/user-profile/img/2019/11/20/20/01/58/16564604_e9ce58d3d24c115b785deda765a4d665_170.jpg"
-                        },
-                        "is_followed": false
-                    },
-                    "tags": [
-                        {
-                            "name": "漫画",
-                            "translated_name": "manga"
-                        },
-                        {
-                            "name": "けものフレンズ",
-                            "translated_name": "Kemono Friends"
-                        },
-                        {
-                            "name": "かばんちゃん",
-                            "translated_name": "Kaban-chan"
-                        },
-                        {
-                            "name": "サーバル(けものフレンズ)",
-                            "translated_name": "Serval (Kemono Friends)"
-                        },
-                        {
-                            "name": "サーかば",
-                            "translated_name": null
-                        },
-                        {
-                            "name": "サーバルちゃん",
-                            "translated_name": "Serval-chan"
-                        },
-                        {
-                            "name": "かざりちゃん",
-                            "translated_name": null
-                        }
-                    ],
-                    "tools": [],
-                    "create_date": "2019-11-19T23:45:28+09:00",
-                    "page_count": 1,
-                    "width": 834,
-                    "height": 1177,
-                    "sanity_level": 2,
-                    "x_restrict": 0,
-                    "series": null,
-                    "meta_single_page": {
-                        "original_image_url": "https://i.pximg.net/img-original/img/2019/11/19/23/45/28/77897831_p0.jpg"
-                    },
-                    "meta_pages": [],
-                    "total_view": 375,
-                    "total_bookmarks": 13,
-                    "is_bookmarked": true,
-                    "visible": true,
-                    "is_muted": false
-                },
-                {
-                    "etc": "etc"
-                }
-            ],
-            "is_muted": false
-        },    
-        {
-            "etc": "etc"
-        }
-    ],
-    "next_url": null
+            "is_followed": false
+          },
+          "tags": [
+            {
+              "name": "漫画",
+              "translated_name": "manga"
+            },
+            {
+              "name": "けものフレンズ",
+              "translated_name": "Kemono Friends"
+            },
+            {
+              "name": "かばんちゃん",
+              "translated_name": "Kaban-chan"
+            },
+            {
+              "name": "サーバル(けものフレンズ)",
+              "translated_name": "Serval (Kemono Friends)"
+            },
+            {
+              "name": "サーかば",
+              "translated_name": null
+            },
+            {
+              "name": "サーバルちゃん",
+              "translated_name": "Serval-chan"
+            },
+            {
+              "name": "かざりちゃん",
+              "translated_name": null
+            }
+          ],
+          "tools": [],
+          "create_date": "2019-11-19T23:45:28+09:00",
+          "page_count": 1,
+          "width": 834,
+          "height": 1177,
+          "sanity_level": 2,
+          "x_restrict": 0,
+          "series": null,
+          "meta_single_page": {
+            "original_image_url": "https://i.pximg.net/img-original/img/2019/11/19/23/45/28/77897831_p0.jpg"
+          },
+          "meta_pages": [],
+          "total_view": 375,
+          "total_bookmarks": 13,
+          "is_bookmarked": true,
+          "visible": true,
+          "is_muted": false
+        },
+        {
+          "etc": "etc"
+        }
+      ],
+      "is_muted": false
+    },
+    {
+      "etc": "etc"
+    }
+  ],
+  "next_url": null
 }
 ```
 
