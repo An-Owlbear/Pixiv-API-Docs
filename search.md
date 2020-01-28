@@ -4,7 +4,9 @@
 
 Retrieves a list of illustrations from the specified search terms.
 
-**Requires authorisation header.**
+**Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -157,6 +159,8 @@ Retrieves a list of novels from the specified search terms.
 
 **Requires authorisation header.**
 
+**GET request**
+
 ### Parameters
 
 include_translated_tag_results - `true` `false`
@@ -282,6 +286,8 @@ Retrieves a list of users from the specified search terms
 
 **Requires authorisation header.**
 
+**GET request**
+
 ### Parameters
 
 filter - `for_android`
@@ -393,4 +399,32 @@ word - `らいふ`
     ],
     "next_url": null
 }
+```
+
+## https://app-api.pixiv.net/v2/search/autocomplete
+
+Provides potential tags to autocomplete to based on the user's current input.
+
+**Requires authorisation header**
+
+**GET request**
+
+### Parameters
+
+merge_plain_keyword_results - `true` `false`
+
+word  - `[word]`
+
+### Example Response
+
+**Parameters**
+
+merge_plain_keyword_results - `true`
+
+word - `kemono`
+
+**Response**
+
+```json
+
 ```

@@ -6,6 +6,8 @@ View information about the series an illustration/manga belongs to.
 
 **Requires authorisation header**
 
+**GET request**
+
 ## Parameters
 
 filter - `for_android`
@@ -564,6 +566,8 @@ Views a series of illustrations from the given id.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 filter - `for_android`    
@@ -827,6 +831,8 @@ illust_series_id - `21859`
 Retrieves the information of a novel series of the given id.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 

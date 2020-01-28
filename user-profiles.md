@@ -6,6 +6,8 @@ Gets information about the specified user.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 filter - `for_android`
@@ -86,11 +88,59 @@ user_id - `24970193`
 }
 ```
 
+## https://app-api.pixiv.net/v1/user/follow/add
+
+Follows the specified user.
+
+**Requires authorisation header**
+
+**POST request**
+
+### Parameters
+
+user_id - `[user id]`
+
+restrict - `public` `private`
+
+### Example Response
+
+**Parameters**
+
+user_id - `[user id]`
+
+restrict - `public`
+
+**Reponse**
+
+```json
+{}
+```
+
+## https://app-api.pixiv.net/v1/user/follow/delete
+
+Stops following the specified user.
+
+**Requires authorisaton header**
+
+**POST request**
+
+### Parameters
+
+user_id - `[user id]`
+
+### Example Response
+
+```json
+{}
+```
+
 ## https://app-api.pixiv.net/v1/user/illusts
 
 Retrieves a list of the illustrations and manga by the specified user.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -245,6 +295,8 @@ Gets a list of novels from the specified user.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 user_id - e.g. `24970193`
@@ -321,6 +373,8 @@ user_id - `24970193`
 Retrieves the user's bookarmed illustrations and manga
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -411,6 +465,8 @@ Retrieves a list of the specified user's bookmarked novels.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 user_id - `4599056`
@@ -496,6 +552,8 @@ restrict - `public`
 Retrieves a list of followers of the user signed in, this is the case regardless of the user_id provided.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -613,6 +671,10 @@ user_id - `[user id]`
 
 Retrieves a list of users followed by the specified account.
 
+**Requires authorisation header**
+
+**GET request**
+
 ### Parameters
 
 filter - `for_android`
@@ -713,6 +775,8 @@ restrict - `public`
 Retrieves a list of users from the specified user's my pixiv list.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 

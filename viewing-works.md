@@ -6,6 +6,8 @@ Retrieves information about the specified Illustration or Manga.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 filter - `for_android`
@@ -102,6 +104,8 @@ Retrieves for comments on the specified illustration or manga.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 illust_id -  e.g. `123456`
@@ -145,6 +149,8 @@ Retrieves the replies of the specified comment.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 comment_id - e.g. `123456`
@@ -179,11 +185,59 @@ comment_id - `94926629`
 }
 ```
 
+## [https://app-api.pixiv.net/v2/illust/bookmark/add](https://app-api.pixiv.net/v2/illust/bookmark/add)
+
+Adds the specified illustration/manga to the user's bookmarks.
+
+**Requires authorisation header**
+
+**POST request**
+
+### Parameters
+
+illust_id - `[illust id]`
+
+restrict - `public` `private`
+
+## Example Response
+
+**Parameters**
+
+illust_id - `[illust id]`
+
+restrict - `public`
+
+**Response**
+
+```json
+{}
+```
+
+## [https://app-api.pixiv.net/v1/illust/bookmark/delete](https://app-api.pixiv.net/v1/illust/bookmark/delete)
+
+Removes the specified illustration/manga from the user's bookmarks
+
+**Requires authorisation header**
+
+**POST request**
+
+### Parameters
+
+illust_id - `[illust id]`
+
+### Example Response
+
+```json
+{}
+```
+
 ## https://app-api.pixiv.net/v2/novel/detail
 
 Retrieves information about the specified novel.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -277,6 +331,8 @@ Retrieves a list of comments of the specified novel
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 novel_id - e.g. `123456`
@@ -319,6 +375,8 @@ Retrieves a list of replies to the specified comment of a novel.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 commend_id - e.g. `123456`
@@ -351,4 +409,42 @@ comment_id - `23848124`
     ],
     "next_url": null
 }
+```
+
+## https://app-api.pixiv.net/v2/novel/bookmark/add
+
+Adds the specified novel to the user's bookmarks.
+
+**Requires authorisation header**
+
+**POST request**
+
+### Parameters
+
+novel_id - `[novel id]`
+
+restrict - `public` `private`
+
+### Example Response
+
+```json
+{}
+```
+
+## https://app-api.pixiv.net/v1/novel/bookmark/delete
+
+Removes the specified novel from the user's bookmarks.
+
+**Requires authorisation header**
+
+**POST request**
+
+### Parameters
+
+novel_id - `[novel id]`
+
+### Example Response
+
+```json
+{}
 ```

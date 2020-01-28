@@ -8,6 +8,8 @@ Uploads an Illustration, set of illustration or manga with the submitted informa
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Specific Headers
 
 Content-Type - `multipart/formdata; boundary=[boundary]`
@@ -66,6 +68,8 @@ Verifies the status of an upload from the given convert key.
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Parameters
 
 convert_key - `[convery key]`
@@ -113,6 +117,8 @@ Adds a comment to the specified illustration or comment.
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Parameters
 
 illust_id - `[illust_id]`    
@@ -156,6 +162,8 @@ Deletes the specififed comment.
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Parameters
 
 comment_id - `[comment_id]`
@@ -177,6 +185,8 @@ comment_id - `[comment_id]`
 Retrieves a list of novel covers to use.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Example Response
 
@@ -241,6 +251,8 @@ Uploads a draft of a novel.
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Parameters
 
 title - `[title]`
@@ -295,6 +307,8 @@ Retrieves a list of the user's drafts.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Example Response
 
 ```json
@@ -316,6 +330,8 @@ Retrieves a list of the user's drafts.
 Retrieves a draft of a novel of the given ID.
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 
@@ -355,6 +371,8 @@ Deletes the specified novel draft.
 
 **Requires authorisation header**
 
+**POST request**
+
 ### Parameters
 
 draft_id - `[draft_id]`
@@ -376,6 +394,8 @@ draft_id - `[draft_id]`
 Submits a novels from the user's input.
 
 **Requires authorisation header**
+
+**POST request**
 
 ### Parameters
 
@@ -427,6 +447,12 @@ is_original - `0`
 
 ## https://app-api.pixiv.net/v1/novel/delete
 
+Deletes a novel of the specified id.
+
+**Requires authorisation header**
+
+**POST requets**
+
 ### Parameters
 
 novel_id - `[novel id]`
@@ -448,6 +474,8 @@ novel_id - `[novel_id]`
 Adds a comment to the specified novel or comment.
 
 **Requires authorisation header**
+
+**POST request**
 
 ### Parameters
 
@@ -491,6 +519,8 @@ comment - `comment`
 Deletes the specified comment.
 
 **Requires authorisation header**
+
+**POST request**
 
 ### Parameters
 

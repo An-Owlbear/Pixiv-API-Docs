@@ -6,6 +6,8 @@ Retrieves a list of ranking illusts/manga based on specified parameters.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Parameters
 
 filter -  `for_android`
@@ -102,6 +104,8 @@ mode - `day`
 Retrieves a list of ranking novels based on the specified parameters
 
 **Requires authorisation header**
+
+**GET request**
 
 ### Parameters
 

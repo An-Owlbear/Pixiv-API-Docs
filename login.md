@@ -4,6 +4,8 @@
 
 Requests a login token from the server using login details or a refresh token.
 
+**POST request**
+
 ### Parameters
 
 client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`

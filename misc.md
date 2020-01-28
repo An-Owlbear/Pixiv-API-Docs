@@ -4,6 +4,8 @@
 
 Retrieves json containing a list of emojis, their names, id and urls.
 
+**GET request**
+
 ### Example response:
 
 ```json
@@ -34,6 +36,8 @@ Retrieves json containing a list of emojis, their names, id and urls.
 ## https://app-api.pixiv.net/v1/walkthrough/illusts
 
 Retrieves a list of images to show to a new user.
+
+**GET request**
 
 ### Example reponse:
 
@@ -107,6 +111,8 @@ Retrieves a list of images to show to a new user.
 ## https://app-api.pixiv.net/v1/notification/user/register
 
 Regestres the user's time zone so they can get notificatons.
+
+**POST request**
 
 ### Parameters
 

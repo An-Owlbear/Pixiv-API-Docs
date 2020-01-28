@@ -6,6 +6,8 @@ Checks the users' current state.
 
 **Requires authorisation header**
 
+**GET request**
+
 ### Example Response
 
 ```json
@@ -21,6 +23,8 @@ Checks the users' current state.
 ## https://app-api.pixiv.net/v1/user/profile/presets
 
 Retrieves the list of presets for countries, locations and jobs.
+
+**GET request**
 
 ```json
 {
@@ -65,6 +69,8 @@ Retrieves the list of presets for countries, locations and jobs.
 Changes the user's information such as username, twitter ID and date of birth.
 
 **Requires authorisation header**
+
+**POST request**
 
 ### Parameters
 
