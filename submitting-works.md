@@ -16,27 +16,27 @@ Content-Type - `multipart/formdata; boundary=[boundary]`
 
 ### Parameters
 
-title - `[title]`
-caption - `[caption]`
-type = `illust` `manga`
-restrict - `public` `mypixiv` `private`
-x_restrict - `none` `r18` `r18g`    
-is_sexual - `false` `true`
-tags[] - `[tags]`
+title - `[title]`<br>
+caption - `[caption]`<br>
+type = `illust` `manga`<br>
+restrict - `public` `mypixiv` `private`<br>
+x_restrict - `none` `r18` `r18g`<br>
+is_sexual - `false` `true`<br>
+tags[] - `[tags]`<br>
 files[] - `[file data]`
 
 ### Example Response
 
 **Parameters**
 
-title - `title`
-caption - `caption`
-type - `illust`
-restrict - `public`
-x_restrict - `none`
-is_sexual - `false`
-tags[] - `tag1`
-tags[] - `tag2`
+title - `title`<br>
+caption - `caption`<br>
+type - `illust`<br>
+restrict - `public`<br>
+x_restrict - `none`<br>
+is_sexual - `false`<br>
+tags[] - `tag1`<br>
+tags[] - `tag2`<br>
 files[] - `[file data`
 
 **Response**
@@ -106,16 +106,15 @@ Adds a comment to the specified illustration or comment.
 
 ### Parameters
 
-illust_id - `[illust_id]`    
-commnt - `[comment contents]`
+illust_id - `[illust_id]`<br>
+commnt - `[comment contents]`<br>
 parent_comment_id - `[parent comment]` (if replying)
 
 ### Example Response
 
 **Parameters**
 
-illust_id - `[illust id]`
-
+illust_id - `[illust id]`<br>
 comment - `comment`
 
 **Response**
@@ -238,27 +237,27 @@ Uploads a draft of a novel.
 
 ### Parameters
 
-title - `[title]`
-caption - `[caption]`
-cover_id - `0` ... `11`
-text - `[text]`
-restrict - `public` `mypixiv` `private`
-x_restrict - `none` `r18` `r18g`
-tags[] - `tags`
+title - `[title]`<br>
+caption - `[caption]`<br>
+cover_id - `0` ... `11`<br>
+text - `[text]`<br>
+restrict - `public` `mypixiv` `private`<br>
+x_restrict - `none` `r18` `r18g`<br>
+tags[] - `tags`<br>
 is_original - `0` `1`
 
-## Example Response
+### Example Response
 
 **Parameters**
 
-title - `title`
-caption - `caption`
-cover_id - `0`
-text - `text`
-restrict - `public`
-x_restrict - `none`
-tags[] - `tag1`
-tags[] - `tag2`
+title - `title`<br>
+caption - `caption`<br>
+cover_id - `0`<br>
+text - `text`<br>
+restrict - `public`<br>
+x_restrict - `none`<br>
+tags[] - `tag1`<br>
+tags[] - `tag2`<br>
 is_original - `0`
 
 **Response**
@@ -367,27 +366,27 @@ Submits a novels from the user's input.
 
 ### Parameters
 
-title - `[title]`
-caption - `[caption]`
-cover_id  - `0` ... `11`
-text - `[text]`
-restrict - `public` `mypixiv` `private`
-x_restrict `none` `r18` `r18g`
-tags[] - `[tags]`
+title - `[title]`<br>
+caption - `[caption]`<br>
+cover_id  - `0` ... `11`<br>
+text - `[text]`<br>
+restrict - `public` `mypixiv` `private`<br>
+x_restrict `none` `r18` `r18g`<br>
+tags[] - `[tags]`<br>
 is_original - `0` `1`
 
 ### Example Response
 
 **Parameters**
 
-title - `title`
-caption - `caption`
-cover_id - `0`
-text - `text`
-restrict - `public`
-x_restrict - `none`
-tags[] - `tag1`
-tags[] - `tag2`
+title - `title`<br>
+caption - `caption`<br>
+cover_id - `0`<br>
+text - `text`<br>
+restrict - `public`<br>
+x_restrict - `none`<br>
+tags[] - `tag1`<br>
+tags[] - `tag2`<br>
 is_original - `0`
 
 **Response**
@@ -432,15 +431,15 @@ Adds a comment to the specified novel or comment.
 
 ### Parameters
 
-novel_id - `[novel_id]`
-comment - `[comment]`
+novel_id - `[novel_id]`<br>
+comment - `[comment]`<br>
 parent_comment - `[parent comment`] (if replying)
 
 ### Example Response
 
 **Parameters**
 
-novel_id - `[novel_id`]
+novel_id - `[novel_id`]<br>
 comment - `comment`
 
 **Response**

@@ -10,17 +10,17 @@ Retrieves a list of recommended illustrations.
 
 ### Parameters
 
-filter - `for_android`
-include_ranking_illusts - `true` `false`
-include_privacy_policy - `true` `false`
+filter - `for_android`<br>
+include_ranking_illusts - `true` `false`<br>
+include_privacy_policy - `true` `false`<br>
 
 ### Example Response
 
 **Pararmeters**
 
-filter - `for_android`
-include_ranking_illusts - `true`
-include_privacy_policy - `true`
+filter - `for_android`<br>
+include_ranking_illusts - `true`<br>
+include_privacy_policy - `true`<br>
 
 **Response**
 
@@ -200,17 +200,17 @@ Retrieves a list of recommended manga.
 
 ### Parameters
 
-filter - `for_android`
-include_ranking_illusts - `true` `false`
-include_privacy_policy - `true` `false`
+filter - `for_android`<br>
+include_ranking_illusts - `true` `false`<br>
+include_privacy_policy - `true` `false`<br>
 
 ### Example Response
 
 **Parameters**
 
-filter - `for_android`
-include_ranking_illusts - `true`
-include_privacy_policy - `true`
+filter - `for_android`<br>
+include_ranking_illusts - `true`<br>
+include_privacy_policy - `true`<br>
 
 **Response**
 
@@ -448,14 +448,14 @@ Retrieves a list of recommended novels.
 
 ### Parameters
 
-include_ranking_novels - `true` `false`
+include_ranking_novels - `true` `false`<br>
 include_privacy_policy - `true` `false`
 
 ### Example Response
 
 **Parameters**
 
-include_ranking_novels - `true`
+include_ranking_novels - `true`<br>
 include_privacy_policy - `true
 
 **Response**
@@ -896,14 +896,14 @@ Retrieves a list of newly uploaded illustrations/manga.
 
 ### Parameters
 
-filter - `for_android`
+filter - `for_android`<br>
 content_type - `illust` `manga`
 
 ### Example Response
 
 **Parameters**
 
-filter - `for_android`
+filter - `for_android`<br>
 content_type - `illust`
 
 ```json

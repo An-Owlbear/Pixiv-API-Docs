@@ -116,5 +116,5 @@ Regestres the user's time zone so they can get notificatons.
 
 ### Parameters
 
-timezone_offset
+timezone_offset<br>
 disable_notifications - `true` `false`

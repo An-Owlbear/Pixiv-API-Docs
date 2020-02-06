@@ -8,28 +8,28 @@ Requests a login token from the server using login details or a refresh token.
 
 ### Parameters
 
-client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`
-client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`
-grant_type - `password` `refresh_token`
-username (only when signing in) - `[Your username]`
-password (only used when signing in) - `[Your password]`
-refresh_token (after login) - `[Your refresh token`]
-device_token - `pixiv` (on first login) `[your device token]` (when using refresh token)
-secure_url - `true` `false`
+client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`<br>
+client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`<br>
+grant_type - `password` `refresh_token`<br>
+username (only when signing in) - `[Your username]`<br>
+password (only used when signing in) - `[Your password]`<br>
+refresh_token (after login) - `[Your refresh token`]<br>
+device_token - `pixiv` (on first login) `[your device token]` (when using refresh token)<br>
+secure_url - `true` `false`<br>
 inclulde_policy - `true` `false`
 
 ### Example Response (sign in)
 
 **Parameters**
 
-client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`
-client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`
-grant_type - `password`
-username - `[username]`
-password - `[password]`
-device_token - `pixiv`
-secure_url - `true`
-include_policy - `true`
+client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`<br>
+client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`<br>
+grant_type - `password`<br>
+username - `[username]`<br>
+password - `[password]`<br>
+device_token - `pixiv`<br>
+secure_url - `true`<br>
+include_policy - `true`<br>
 
 **Response**
 
@@ -65,12 +65,12 @@ include_policy - `true`
 
 **Parameters**
 
-client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`
-client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`
-grant_type - `refresh_token`
-refresh_token - `[refresh token]`
-device_token - `[device token]`
-secure_url - `true`
+client_id - `MOBrBDS8blbauoSck0ZfDbtuzpyT`<br>
+client_secret - `lsACyCD94FhDUtGTXi3QzcFE2uU1hqtDaKeqrdwj`<br>
+grant_type - `refresh_token`<br>
+refresh_token - `[refresh token]`<br>
+device_token - `[device token]`<br>
+secure_url - `true`<br>
 include_policy - `true`
 
 **Response**

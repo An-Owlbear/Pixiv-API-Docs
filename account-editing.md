@@ -74,22 +74,22 @@ Changes the user's information such as username, twitter ID and date of birth.
 
 ### Parameters
 
-delete_profile_image - `true` `false`
-user_name - `[username]`
-webpage - `https://www.example.com`
-twitter.com - `[twitter id'`
-gender - `male` `female` `unknown`
-address - `[adress id]`
-country - `[country code]`
-job - `[job id]`
-comment - `[comment]`
-gender_publicity - `public` `mypixiv` `private`
-address_publicity - `public ` `mypixiv` `private`
-birth_year_publicity - `public` `mypixiv` `private`
-birth_day_publicity - `public` `mypixiv` `private`
-job_publicity - `public` `mypixiv` `private`
-pawoo_publicity - `public` `mypixiv` `private`
-profile_image - `[image data]`
+delete_profile_image - `true` `false`<br>
+user_name - `[username]`<br>
+webpage - `https://www.example.com`<br>
+twitter.com - `[twitter id'`<br>
+gender - `male` `female` `unknown`<br>
+address - `[adress id]`<br>
+country - `[country code]`<br>
+job - `[job id]`<br>
+comment - `[comment]`<br>
+gender_publicity - `public` `mypixiv` `private`<br>
+address_publicity - `public ` `mypixiv` `private`<br>
+birth_year_publicity - `public` `mypixiv` `private`<br>
+birth_day_publicity - `public` `mypixiv` `private`<br>
+job_publicity - `public` `mypixiv` `private`<br>
+pawoo_publicity - `public` `mypixiv` `private`<br>
+profile_image - `[image data]`<br>
 birthday - `[birth date (yyyy-mm-dd)]` e.g. `2001-07-11`
 
 ### Specific Headers

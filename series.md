@@ -8,16 +8,16 @@ View information about the series an illustration/manga belongs to.
 
 **GET request**
 
-## Parameters
+### Parameters
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_id - `[illust_id]`
 
-## Example Response
+### Example Response
 
 **Parameters**
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_id - `79070294`
 
 **Response**
@@ -568,14 +568,14 @@ Views a series of illustrations from the given id.
 
 ### Parameters
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_series_id - `[illust_series_id]`
 
 ### Example Response
 
 **Parameters**
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_series_id - `21859`
 
 **Response**

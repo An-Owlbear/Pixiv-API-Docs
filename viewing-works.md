@@ -1,6 +1,6 @@
 # Viewing Works
 
-## [https://app-api.pixiv.net/v1/illust/detail](https://app-api.pixiv.net/v1/illust/detail)
+## https://app-api.pixiv.net/v1/illust/detail
 
 Retrieves information about the specified Illustration or Manga.
 
@@ -10,14 +10,14 @@ Retrieves information about the specified Illustration or Manga.
 
 ### Parameters
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_id - e.g. `123456`
 
 ### Example Response
 
 **Parameters**
 
-filter - `for_android`
+filter - `for_android`<br>
 illust_id - `78127058`
 
 **Response**
@@ -183,7 +183,7 @@ comment_id - `94926629`
 }
 ```
 
-## [https://app-api.pixiv.net/v2/illust/bookmark/add](https://app-api.pixiv.net/v2/illust/bookmark/add)
+## https://app-api.pixiv.net/v2/illust/bookmark/add
 
 Adds the specified illustration/manga to the user's bookmarks.
 
@@ -193,14 +193,14 @@ Adds the specified illustration/manga to the user's bookmarks.
 
 ### Parameters
 
-illust_id - `[illust id]`
+illust_id - `[illust id]`<br>
 restrict - `public` `private`
 
-## Example Response
+### Example Response
 
 **Parameters**
 
-illust_id - `[illust id]`
+illust_id - `[illust id]`<br>
 restrict - `public`
 
 **Response**
@@ -209,7 +209,7 @@ restrict - `public`
 {}
 ```
 
-## [https://app-api.pixiv.net/v1/illust/bookmark/delete](https://app-api.pixiv.net/v1/illust/bookmark/delete)
+## https://app-api.pixiv.net/v1/illust/bookmark/delete
 
 Removes the specified illustration/manga from the user's bookmarks
 
@@ -417,8 +417,7 @@ Adds the specified novel to the user's bookmarks.
 
 ### Parameters
 
-novel_id - `[novel id]`
-
+novel_id - `[novel id]`<br>
 restrict - `public` `private`
 
 ### Example Response

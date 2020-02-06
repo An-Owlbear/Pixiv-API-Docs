@@ -10,23 +10,23 @@ Retrieves a list of illustrations from the specified search terms.
 
 ### Parameters
 
-filter - `for_android`
-include_translated_tag_results - `true` `false`
-merge_plain_keyword_results - `true` `false`
-word - `[word]`
-sort - `date_desc` `date_asc`
-search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
-start_date
-end_date
+filter - `for_android`<br>
+include_translated_tag_results - `true` `false`<br>
+merge_plain_keyword_results - `true` `false`<br>
+word - `[word]`<br>
+sort - `date_desc` `date_asc`<br>
+search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`<br>
+start_date - `[start date]`<br>
+end_date - `[end date]`
 
 ### Example Response
 
 **Request parameters**
 
-filter - `for_android`
-include_translated_tag_results - `true`
-merge_plain_keyword_results - `true`
-word - `けものフレンズ%20かわいい`
+filter - `for_android`<br>
+include_translated_tag_results - `true`<br>
+merge_plain_keyword_results - `true`<br>
+word - `けものフレンズ%20かわいい`<br>
 search_target - `partial_match_for_tags`
 
 **Response**
@@ -152,20 +152,20 @@ Retrieves a list of novels from the specified search terms.
 
 ### Parameters
 
-include_translated_tag_results - `true` `false`
-merge_plain_keyword_results - `true` `false`
-word - `[word]`
-sort - `date_desc` `date_asc`
+include_translated_tag_results - `true` `false`<br>
+merge_plain_keyword_results - `true` `false`<br>
+word - `[word]`<br>
+sort - `date_desc` `date_asc`<br>
 search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
 
 ### Example Response
 
 **Request parameters**
 
-include_translated_tag_results - `true`
-merge_plain_keyword_results - `true`
-word - `けものフレンズ`
-sort - `date_desc`
+include_translated_tag_results - `true`<br>
+merge_plain_keyword_results - `true`<br>
+word - `けものフレンズ`<br>
+sort - `date_desc`<br>
 search_target - `partial_match_for_tags`
 
 **Response**
@@ -271,14 +271,14 @@ Retrieves a list of users from the specified search terms
 
 ### Parameters
 
-filter - `for_android`
+filter - `for_android`<br>
 word - `[word]`
 
 ### Example response
 
 **Request parameters**
 
-filter - `for_android`
+filter - `for_android`<br>
 word - `らいふ` 
 
 **Response**    
@@ -390,14 +390,14 @@ Provides potential tags to autocomplete to based on the user's current input.
 
 ### Parameters
 
-merge_plain_keyword_results - `true` `false`
+merge_plain_keyword_results - `true` `false`<br>
 word  - `[word]`
 
 ### Example Response
 
 **Parameters**
 
-merge_plain_keyword_results - `true`
+merge_plain_keyword_results - `true`<br>
 word - `kemono`
 
 **Response**
