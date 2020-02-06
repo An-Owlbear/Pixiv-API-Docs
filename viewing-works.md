@@ -11,7 +11,6 @@ Retrieves information about the specified Illustration or Manga.
 ### Parameters
 
 filter - `for_android`
-
 illust_id - e.g. `123456`
 
 ### Example Response
@@ -19,7 +18,6 @@ illust_id - e.g. `123456`
 **Parameters**
 
 filter - `for_android`
-
 illust_id - `78127058`
 
 **Response**
@@ -196,7 +194,6 @@ Adds the specified illustration/manga to the user's bookmarks.
 ### Parameters
 
 illust_id - `[illust id]`
-
 restrict - `public` `private`
 
 ## Example Response
@@ -204,7 +201,6 @@ restrict - `public` `private`
 **Parameters**
 
 illust_id - `[illust id]`
-
 restrict - `public`
 
 **Response**

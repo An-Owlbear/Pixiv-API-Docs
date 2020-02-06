@@ -17,19 +17,12 @@ Content-Type - `multipart/formdata; boundary=[boundary]`
 ### Parameters
 
 title - `[title]`
-
 caption - `[caption]`
-
 type = `illust` `manga`
-
 restrict - `public` `mypixiv` `private`
-
 x_restrict - `none` `r18` `r18g`    
-
 is_sexual - `false` `true`
-
 tags[] - `[tags]`
-
 files[] - `[file data]`
 
 ### Example Response
@@ -37,21 +30,13 @@ files[] - `[file data]`
 **Parameters**
 
 title - `title`
-
 caption - `caption`
-
 type - `illust`
-
 restrict - `public`
-
 x_restrict - `none`
-
 is_sexual - `false`
-
 tags[] - `tag1`
-
 tags[] - `tag2`
-
 files[] - `[file data`
 
 **Response**
@@ -122,9 +107,7 @@ Adds a comment to the specified illustration or comment.
 ### Parameters
 
 illust_id - `[illust_id]`    
-
 commnt - `[comment contents]`
-
 parent_comment_id - `[parent comment]` (if replying)
 
 ### Example Response
@@ -256,19 +239,12 @@ Uploads a draft of a novel.
 ### Parameters
 
 title - `[title]`
-
 caption - `[caption]`
-
 cover_id - `0` ... `11`
-
 text - `[text]`
-
 restrict - `public` `mypixiv` `private`
-
 x_restrict - `none` `r18` `r18g`
-
 tags[] - `tags`
-
 is_original - `0` `1`
 
 ## Example Response
@@ -276,21 +252,13 @@ is_original - `0` `1`
 **Parameters**
 
 title - `title`
-
 caption - `caption`
-
 cover_id - `0`
-
 text - `text`
-
 restrict - `public`
-
 x_restrict - `none`
-
 tags[] - `tag1`
-
 tags[] - `tag2`
-
 is_original - `0`
 
 **Response**
@@ -400,19 +368,12 @@ Submits a novels from the user's input.
 ### Parameters
 
 title - `[title]`
-
 caption - `[caption]`
-
 cover_id  - `0` ... `11`
-
 text - `[text]`
-
 restrict - `public` `mypixiv` `private`
-
 x_restrict `none` `r18` `r18g`
-
 tags[] - `[tags]`
-
 is_original - `0` `1`
 
 ### Example Response
@@ -420,21 +381,13 @@ is_original - `0` `1`
 **Parameters**
 
 title - `title`
-
 caption - `caption`
-
 cover_id - `0`
-
 text - `text`
-
 restrict - `public`
-
 x_restrict - `none`
-
 tags[] - `tag1`
-
 tags[] - `tag2`
-
 is_original - `0`
 
 **Response**
@@ -480,9 +433,7 @@ Adds a comment to the specified novel or comment.
 ### Parameters
 
 novel_id - `[novel_id]`
-
 comment - `[comment]`
-
 parent_comment - `[parent comment`] (if replying)
 
 ### Example Response
@@ -490,7 +441,6 @@ parent_comment - `[parent comment`] (if replying)
 **Parameters**
 
 novel_id - `[novel_id`]
-
 comment - `comment`
 
 **Response**

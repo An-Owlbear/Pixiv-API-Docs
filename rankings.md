@@ -11,9 +11,7 @@ Retrieves a list of ranking illusts/manga based on specified parameters.
 ### Parameters
 
 filter -  `for_android`
-
 mode - `day` `week` `month` `day_male` `day_female` `week_original` `week_rookie` `day_manga` `week_rookie_manga` `week_manga` `month_manga`
-
 date - e.g. `2019-11-27` `2017-05-25`
 
 ### Example Response
@@ -110,7 +108,6 @@ Retrieves a list of ranking novels based on the specified parameters
 ### Parameters
 
 mode - `day` `week` `day_male` `day_female` `week_rookie`
-
 date - e.g. `2019-11-07`
 
 ### Example Response

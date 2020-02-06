@@ -11,19 +11,12 @@ Retrieves a list of illustrations from the specified search terms.
 ### Parameters
 
 filter - `for_android`
-
 include_translated_tag_results - `true` `false`
-
 merge_plain_keyword_results - `true` `false`
-
-word
-
+word - `[word]`
 sort - `date_desc` `date_asc`
-
 search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
-
 start_date
-
 end_date
 
 ### Example Response
@@ -31,13 +24,9 @@ end_date
 **Request parameters**
 
 filter - `for_android`
-
 include_translated_tag_results - `true`
-
 merge_plain_keyword_results - `true`
-
 word - `けものフレンズ%20かわいい`
-
 search_target - `partial_match_for_tags`
 
 **Response**
@@ -164,13 +153,9 @@ Retrieves a list of novels from the specified search terms.
 ### Parameters
 
 include_translated_tag_results - `true` `false`
-
 merge_plain_keyword_results - `true` `false`
-
-word
-
+word - `[word]`
 sort - `date_desc` `date_asc`
-
 search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
 
 ### Example Response
@@ -178,13 +163,9 @@ search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_capti
 **Request parameters**
 
 include_translated_tag_results - `true`
-
 merge_plain_keyword_results - `true`
-
 word - `けものフレンズ`
-
 sort - `date_desc`
-
 search_target - `partial_match_for_tags`
 
 **Response**
@@ -291,15 +272,13 @@ Retrieves a list of users from the specified search terms
 ### Parameters
 
 filter - `for_android`
-
-word
+word - `[word]`
 
 ### Example response
 
 **Request parameters**
 
 filter - `for_android`
-
 word - `らいふ` 
 
 **Response**    
@@ -412,7 +391,6 @@ Provides potential tags to autocomplete to based on the user's current input.
 ### Parameters
 
 merge_plain_keyword_results - `true` `false`
-
 word  - `[word]`
 
 ### Example Response
@@ -420,11 +398,53 @@ word  - `[word]`
 **Parameters**
 
 merge_plain_keyword_results - `true`
-
 word - `kemono`
 
 **Response**
 
 ```json
-
+{
+    "tags": [
+        {
+            "name": "ケモノ",
+            "translated_name": null
+        },
+        {
+            "name": "けものフレンズ",
+            "translated_name": "Kemono Friends"
+        },
+        {
+            "name": "獣耳",
+            "translated_name": null
+        },
+        {
+            "name": "獣",
+            "translated_name": null
+        },
+        {
+            "name": "けもの",
+            "translated_name": null
+        },
+        {
+            "name": "獸耳",
+            "translated_name": null
+        },
+        {
+            "name": "獣娘",
+            "translated_name": null
+        },
+        {
+            "name": "けものフレンズ2",
+            "translated_name": "Kemono Friends 2"
+        },
+        {
+            "name": "ケモノ耳",
+            "translated_name": null
+        },
+        {
+            "name": "獣の楼郭",
+            "translated_name": null
+        }
+    ]
+}
 ```

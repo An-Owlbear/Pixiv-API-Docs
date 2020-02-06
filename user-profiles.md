@@ -11,7 +11,6 @@ Gets information about the specified user.
 ### Parameters
 
 filter - `for_android`
-
 user_id - e.g. `24970193`
 
 ### Example Response
@@ -19,7 +18,6 @@ user_id - e.g. `24970193`
 **Parameters**
 
 filter - `for_android`
-
 user_id - `24970193`
 
 **Response**
@@ -99,7 +97,6 @@ Follows the specified user.
 ### Parameters
 
 user_id - `[user id]`
-
 restrict - `public` `private`
 
 ### Example Response
@@ -107,7 +104,6 @@ restrict - `public` `private`
 **Parameters**
 
 user_id - `[user id]`
-
 restrict - `public`
 
 **Reponse**
@@ -145,9 +141,7 @@ Retrieves a list of the illustrations and manga by the specified user.
 ### Parameters
 
 filter - `for_android`
-
 user_id - e.g. `24970193`
-
 type - `illust` `manga`
 
 ### Example Response
@@ -155,9 +149,7 @@ type - `illust` `manga`
 **Parameters**
 
 filter - `for_android`
-
 user_id - `24970193`
-
 type - `illust`
 
 **Response**
@@ -379,7 +371,6 @@ Retrieves the user's bookarmed illustrations and manga
 ### Parameters
 
 user_id - e.g. `123456`
-
 restrict - `public` `private`
 
 ### Examples Response
@@ -387,7 +378,6 @@ restrict - `public` `private`
 **Parameters**
 
 user_id - `[user id]`
-
 restrict - `public`
 
 **Response**
@@ -469,8 +459,7 @@ Retrieves a list of the specified user's bookmarked novels.
 
 ### Parameters
 
-user_id - `4599056`
-
+user_id - `[user id]`
 restrict - `public` `private`
 
 ### Example Response
@@ -478,7 +467,6 @@ restrict - `public` `private`
 https://app-api.pixiv.net/v1/user/mypixiv?filter=for_android&user_id=4599056**Parameters**
 
 user_id - `[user id]`
-
 restrict - `public`
 
 **Response**
@@ -558,7 +546,6 @@ Retrieves a list of followers of the user signed in, this is the case regardless
 ### Parameters
 
 filter - `for_android`
-
 user_id - e.g. `123456`
 
 ### Example Response
@@ -566,7 +553,6 @@ user_id - e.g. `123456`
 **Parameters**
 
 filter - `for_android`
-
 user_id - `[user id]`
 
 **Response**
@@ -678,9 +664,7 @@ Retrieves a list of users followed by the specified account.
 ### Parameters
 
 filter - `for_android`
-
 user_id - e.g. `123456`
-
 restrict - `public`
 
 ### Example Response
@@ -781,7 +765,6 @@ Retrieves a list of users from the specified user's my pixiv list.
 ### Parameters
 
 filter - `for_android`
-
 user_id - e.g. `123456`
 
 ### Example Response
@@ -789,7 +772,6 @@ user_id - e.g. `123456`
 **Parameters**
 
 filter - `for_android`
-
 user_id - `[user id]`
 
 **Response**

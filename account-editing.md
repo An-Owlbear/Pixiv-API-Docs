@@ -75,37 +75,21 @@ Changes the user's information such as username, twitter ID and date of birth.
 ### Parameters
 
 delete_profile_image - `true` `false`
-
 user_name - `[username]`
-
 webpage - `https://www.example.com`
-
 twitter.com - `[twitter id'`
-
 gender - `male` `female` `unknown`
-
 address - `[adress id]`
-
 country - `[country code]`
-
 job - `[job id]`
-
 comment - `[comment]`
-
 gender_publicity - `public` `mypixiv` `private`
-
 address_publicity - `public ` `mypixiv` `private`
-
 birth_year_publicity - `public` `mypixiv` `private`
-
 birth_day_publicity - `public` `mypixiv` `private`
-
 job_publicity - `public` `mypixiv` `private`
-
 pawoo_publicity - `public` `mypixiv` `private`
-
 profile_image - `[image data]`
-
 birthday - `[birth date (yyyy-mm-dd)]` e.g. `2001-07-11`
 
 ### Specific Headers
