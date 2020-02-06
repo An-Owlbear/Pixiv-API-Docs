@@ -10,7 +10,7 @@ Currently this documentation does include any features restricted to premium acc
 [Viewing rankings](rankings.md)<br>
 [Viewing works and comments](viewing-works.md)<br>
 [Viewing series](series.md)<br>
-[Viewing profiles](user-profiles)<br>
+[Viewing profiles](user-profiles.md)<br>
 [Submitting works and comments](submitting-works.md)<br>
 [Miscellaneous functions](misc.md)<br>
 [General headers](general-headers.md)
