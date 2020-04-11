@@ -27,7 +27,8 @@ filter - `for_android`<br>
 include_translated_tag_results - `true`<br>
 merge_plain_keyword_results - `true`<br>
 word - `けものフレンズ%20かわいい`<br>
-search_target - `partial_match_for_tags`
+search_target - `partial_match_for_tags`<br>
+sort - `date_desc`
 
 **Response**
 
