@@ -147,6 +147,8 @@ sort - `date_desc`
 
 Retrieves a single page of popular illusts
 
+**Requires authorisation header**
+
 **GET request**
 
 ### Parameters
@@ -416,6 +418,123 @@ search_target - `partial_match_for_tags`
 }
 ```
 
+## https://app-api.pixiv.net/v1/search/popular-preview/novel
+
+Returns a single page of popular novels.
+
+**Requires authorisation header**
+
+**GET request**
+
+### Parameters
+
+include_translated_tag_results - `true` `false`<br>
+merge_plain_keyword_results - `true` `false`<br>
+word - `[word]`<br>
+sort - `date_desc` `date_asc`<br>
+search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`
+
+### Example Response
+
+**Request parameters**
+
+include_translated_tag_results - `true`<br>
+merge_plain_keyword_results - `true`<br>
+word - `けものフレンズ`<br>
+search_target - `partial_match_for_tags`
+
+**Response**
+
+```json
+{
+    "novels": [
+        {
+            "id": 7782855,
+            "title": "けものフレンズTRPG だいすきジャパリパーク",
+            "caption": "・本作は非公式の二次創作TRPGシステムです。<br />・ご利用になる際に、事前に連絡等は必要ありません。改変等もご自由にどうぞ<br />・ルール等、ご不明な点がございましたら、いつでもお気軽にご相談ください<br />・本作は「アニメ版のジャパリパークを舞台に、《フレンズ》になってパーク内を探索するＴＲＰＧ」です<br /><br />*キャラシート（制作：かいぬ様）<br />とっても素敵なキャラシートを作っていただきました！<br /><a href=\"https://twitter.com/kainu_yukkuri/status/837479114625835008\" target=\"_blank\">https://twitter.com/kainu_yukkuri/status/837479114625835008</a><br />Excelシート・PDFシートまで！本当にありがとうございます！<br /><br />*更新履歴（現在Ver1.50が最新です）<br /><br />2018.05.13 休息判定のルールを修正。サイクルごとの報酬も修正（Ver1.50）<br />2018.05.06 上級スキルの記載場所を◆Ｃぱーと◆に変更（Ver1.49）<br />2018.02.04 公開一周年を記念して、特徴スキル『おおきいしっぽ』を追加（Ver1.48）<br />2018.01.11 アニメけものフレンズ第一話放送から一年を記念し、特徴スキル『きおくそうしつ』を追加（Ver1.47）<br />2018.01.11 新しく特徴スキルの概念を追加。それに伴い『とらぶるめーかー』が特徴スキルとして修正（Ver1.46）<br />2018.01.02 スキル『ちせいかいほー』追加。スキル『うーがおー！』や、休息判定を修正（Ver1.45）<br />2018.01.02 スキル『ものしり』のコストを修正。野生判定、助けを呼ぶなどの記載修正。他、記載順や表などを整理（Ver1.44）<br />2018.01.02 スキル『すっごーい！』追加。アイテム『かばん』『ボス』修正、『ばいがえし』『なにか』削除（Ver1.43）<br />2018.01.01 アイテム『角』削除、『ブレスレット』『ネックレス』系のアイテムを修正（Ver1.42）<br />2018.01.01 スキル『がんばって！』『ぱたぱた』効果修正（Ver1.41）<br />2018.01.01 《おつかれ》と《トラブル》の同時発生について、やさしいるーるで統一（Ver1.40）<br />2017.12.31 スキル『うたう』追加（Ver1.39）<br />2017.12.31 スキル『うー！がおー！』の名称を『うーがおー！』に修正、コストも-3から-2に修正（Ver1.38）<br />2017.12.26 ぐらのら様にいただいたアイデアを元に新スキル『ぷれぜんと』を追加。ありがとうございます！（Ver1.37）<br />2017.12.26 一度の《判定》で同じスキル・アイテムを２回以上使用できないことを明記。（Ver1.36）<br />2017.12.25 けもリンクのルール変更。スキルとは別にキャラシートに記載する形式に変更。（Ver1.35）<br />2017.12.25 スキル『いかく』追加（Ver1.34）<br />2017.12.24 コインを１枚消費することで直前の出目ひとつを振りなおせるルールを追加。（Ver1.34）<br />2017.12.24 新属性【飼育系】と、専用スキル『おもいで』、専用アイテム『絆の証』を追加。（Ver1.33）<br />2017.12.23 スキル・アイテムの名称変更ルールを追加。（Ver1.32）<br />2017.07.30 スキル『さわぐほどでもないか』を追加。（Ver1.31）<br />2017.06.25 スキル『じーーーー』『まかせて』『わからん』を追加。（Ver1.30）<br />2017.06.24 サブタイトルが公式ファンクラブ名と被ってしまったので、『だいすきジャパリパーク』に変更。<br />2017.05.19 スキル『とらぶるめーかー』と、アイテム『なにか』の効果が強すぎたので修正。（Ver1.29）<br />2017.05.01 サブタイトルとして『きみもフレンズ』を追加<br />2017.04.09 成長時、追加スキルスロットを選択できるように修正（Ver1.28）<br />2017.04.09 初期取得不可の上級スキル『やせいかいほー』を追加（Ver1.27）<br />2017.04.09 新属性【地中系】と、専用スキル『ざくざく』を追加（Ver1.26）<br />2017.04.08 コイン＝幸運度である説明を追加「汎用アライグマ台詞表」「汎用フェネック台詞表」を追加（Ver1.25）<br />2017.04.04 『かしこい』の効果を修正。スキル『ものしり』追加（Ver1.24）<br />2017.03.25 アイテム『なにか』を追加（Ver1.23）<br />2017.03.20 （かんたんるーる）（むずかしいるーる）の名称を（やさしいるーる）（きびしいるーる）に変更（Ver1.22）<br />2017.03.20 《むずかしい判定》ルールを明記（Ver1.21）<br />2017.03.18 「ろっじ表」「汎用タイリクオオカミ台詞表」を追加。（Ver1.20）<br />2017.03.18 〔選択ルール〕《おつかれ》と《トラブル》の同時発生（かんたんるーる）に『けもリンク』関連の追記。（Ver1.19）<br />2017.03.12 「ゆきやまちほー表」「ふもとのおんせん表」追加。（Ver1.18）<br />2017.03.08 かぼペン様に考案していただいた新スキル『たーのしー！』追加。ありがとうございます！（Ver1.17）<br />2017.03.08 「みずべちほー表」「汎用ＰＰＰ台詞表」を追加。（Ver1.16）<br />2017.03.08 スキルの表記を改行。『くんくん』『ぶくぶく』『らららら』を修正。新スキル『おもしろーい！』追加。（Ver1.15）<br />2017.03.07 マイナスの《ダメージ》は０扱いとすることについて追記（Ver1.14）<br />2017.03.05 自分のＰＣの元動物を飼育員さん風に紹介するとボーナスが貰える選択ルール◆アイキャッチ◆を追加（Ver1.13）<br />2017.03.05 自分のシーン以外でも、シーン登場時に【キラキラ】を払うことで《もちもの》を得られるようにルール修正（Ver1.12）<br />2017.02.28 「じゃぱりとしょかん表」追加（Ver1.11）<br />2017.02.22 アイテムに『ボス』追加（Ver1.10）<br />2017.02.22 スキル『おねえさん』の効果を修正（Ver1.09）<br />2017.02.22 「へいげん表」を追加（Ver1.08）<br />2017.02.22 《探索判定》で【ゴールド】獲得後に【AP】が1点減少するようにルール変更。（Ver1.07）<br />2017.02.20 キャラシートに【出身地方】を追加。現時点では特に意味はないよ。（Ver1.06）<br />2017.02.14 「こはん表」を追加。（Ver1.05）<br />2017.02.11 『かばん』の効果を修正。一部スキル等を修正。アイテムを値上げ。（Ver1.04）<br />2017.02.09 「さばんなちほー表２」「さばくちほー表」追加。《もちもの》の初期獲得数と一部シーン表の内容も修正（Ver1.03）<br />2017.02.07 エラッタを修正。《おつかれ》の定義と、選択ルールを追加。（Ver1.02）<br />2017.02.05 初テストプレイ。一部エラッタを修正。（Ver1.01）<br /><br />スペシャルサンクス<br />かいぬ様、かぼペン様",
+            "restrict": 0,
+            "x_restrict": 0,
+            "is_original": false,
+            "image_urls": {
+                "square_medium": "https://s.pximg.net/common/images/novel_thumb/novel_thumb_6_128x128.jpg",
+                "medium": "https://s.pximg.net/common/images/novel_thumb/novel_thumb_6_176mw.jpg",
+                "large": "https://s.pximg.net/common/images/novel_thumb/novel_thumb_6_240mw.jpg"
+            },
+            "create_date": "2017-02-04T23:22:04+09:00",
+            "tags": [
+                {
+                    "name": "エンタメ",
+                    "translated_name": null,
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "SF・ファンタジー",
+                    "translated_name": "SF & Fantasy",
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "けものフレンズ",
+                    "translated_name": "Kemono Friends",
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "TRPG",
+                    "translated_name": null,
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "けもフレ",
+                    "translated_name": null,
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "二次創作",
+                    "translated_name": "fan work",
+                    "added_by_uploaded_user": true
+                },
+                {
+                    "name": "すごーい!",
+                    "translated_name": null,
+                    "added_by_uploaded_user": false
+                },
+                {
+                    "name": "けものフレンズ小説100users入り",
+                    "translated_name": null,
+                    "added_by_uploaded_user": false
+                }
+            ],
+            "page_count": 2,
+            "text_length": 20424,
+            "user": {
+                "id": 13414711,
+                "name": "うらやま",
+                "account": "urayama_gori",
+                "profile_image_urls": {
+                    "medium": "https://i.pximg.net/user-profile/img/2020/01/04/11/28/31/16797652_1eae72cadcf49ce72567adf182ebe691_170.png"
+                },
+                "is_followed": false
+            },
+            "series": {
+                "id": 795973,
+                "title": "けものフレンズTRPG"
+            },
+            "is_bookmarked": false,
+            "total_bookmarks": 334,
+            "total_view": 16633,
+            "visible": true,
+            "total_comments": 8,
+            "is_muted": false,
+            "is_mypixiv_only": false,
+            "is_x_restricted": false
+        },
+        {
+            "etc": "etc"
+        }
+    ],
+    "search_span_limit": 31536000
+}
+```
+
 ## https://app-api.pixiv.net/v1/search/user
 
 Retrieves a list of users from the specified search terms
@@ -546,7 +665,7 @@ Provides potential tags to autocomplete to based on the user's current input.
 ### Parameters
 
 merge_plain_keyword_results - `true` `false`<br>
-word  - `[word]`
+word - `[word]`
 
 ### Example Response
 
