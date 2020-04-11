@@ -143,6 +143,160 @@ sort - `date_desc`
 }        
 ```
 
+## https://app-api.pixiv.net/v1/search/popular-preview/illust
+
+Retrieves a single page of popular illusts
+
+**GET request**
+
+### Parameters
+
+filter - `for_android`<br>
+include_translated_tag_results - `true` `false`<br>
+merge_plain_keyword_results - `true` `false`<br>
+word - `[word]`<br>
+sort - `date_desc` `date_asc`<br>
+search_target - `partial_match_for_tags` `exact_match_for_tags` `title_and_caption`<br>
+start_date - `[start date]`<br>
+end_date - `[end date]`
+
+### Example Response
+
+**Request parameters**
+
+filter - `for_android`<br>
+include_translated_tag_results - `true`<br>
+merge_plain_keyword_results - `true`<br>
+word - `先輩がうざい`<br>
+search_target - `partial_match_for_tags`
+
+**Response**
+
+```json
+{
+    "illusts": [
+        {
+            "id": 65014429,
+            "title": "先輩がうざい後輩の話",
+            "type": "manga",
+            "image_urls": {
+                "square_medium": "https://i.pximg.net/c/540x540_10_webp/img-master/img/2017/09/18/00/34/44/65014429_p0_square1200.jpg",
+                "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2017/09/18/00/34/44/65014429_p0_master1200.jpg",
+                "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2017/09/18/00/34/44/65014429_p0_master1200.jpg"
+            },
+            "caption": "先輩が飲んでいるのはノンアルです。ご安心をば",
+            "restrict": 0,
+            "user": {
+                "id": 10509347,
+                "name": "しろまんた",
+                "account": "misomisomiso1020",
+                "profile_image_urls": {
+                    "medium": "https://i.pximg.net/user-profile/img/2018/04/27/14/31/50/14147053_e9dc153993f26de401c0359022455531_170.jpg"
+                },
+                "is_followed": false
+            },
+            "tags": [
+                {
+                    "name": "創作",
+                    "translated_name": "creation"
+                },
+                {
+                    "name": "オリジナル",
+                    "translated_name": "original"
+                },
+                {
+                    "name": "なにこれ可愛い",
+                    "translated_name": "what is this cuteness"
+                },
+                {
+                    "name": "先輩×後輩",
+                    "translated_name": "senpai x kouhai"
+                },
+                {
+                    "name": "プロポーズ",
+                    "translated_name": null
+                },
+                {
+                    "name": "伝説の始まり",
+                    "translated_name": "the beginning of the legend"
+                },
+                {
+                    "name": "オリジナル漫画",
+                    "translated_name": "original comic"
+                },
+                {
+                    "name": "先輩がうざい後輩の話",
+                    "translated_name": "My Senpai Is Annoying"
+                },
+                {
+                    "name": "オリジナル30000users入り",
+                    "translated_name": "original 30000+ Bookmarks"
+                },
+                {
+                    "name": "ハンドルキーパー",
+                    "translated_name": null
+                }
+            ],
+            "tools": [],
+            "create_date": "2017-09-18T00:34:44+09:00",
+            "page_count": 4,
+            "width": 1451,
+            "height": 2048,
+            "sanity_level": 2,
+            "x_restrict": 0,
+            "series": {
+                "id": 21859,
+                "title": "先輩がうざい後輩の話"
+            },
+            "meta_single_page": {},
+            "meta_pages": [
+                {
+                    "image_urls": {
+                        "square_medium": "https://i.pximg.net/c/360x360_10_webp/img-master/img/2017/09/18/00/34/44/65014429_p0_square1200.jpg",
+                        "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2017/09/18/00/34/44/65014429_p0_master1200.jpg",
+                        "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2017/09/18/00/34/44/65014429_p0_master1200.jpg",
+                        "original": "https://i.pximg.net/img-original/img/2017/09/18/00/34/44/65014429_p0.jpg"
+                    }
+                },
+                {
+                    "image_urls": {
+                        "square_medium": "https://i.pximg.net/c/360x360_10_webp/img-master/img/2017/09/18/00/34/44/65014429_p1_square1200.jpg",
+                        "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2017/09/18/00/34/44/65014429_p1_master1200.jpg",
+                        "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2017/09/18/00/34/44/65014429_p1_master1200.jpg",
+                        "original": "https://i.pximg.net/img-original/img/2017/09/18/00/34/44/65014429_p1.jpg"
+                    }
+                },
+                {
+                    "image_urls": {
+                        "square_medium": "https://i.pximg.net/c/360x360_10_webp/img-master/img/2017/09/18/00/34/44/65014429_p2_square1200.jpg",
+                        "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2017/09/18/00/34/44/65014429_p2_master1200.jpg",
+                        "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2017/09/18/00/34/44/65014429_p2_master1200.jpg",
+                        "original": "https://i.pximg.net/img-original/img/2017/09/18/00/34/44/65014429_p2.jpg"
+                    }
+                },
+                {
+                    "image_urls": {
+                        "square_medium": "https://i.pximg.net/c/360x360_10_webp/img-master/img/2017/09/18/00/34/44/65014429_p3_square1200.jpg",
+                        "medium": "https://i.pximg.net/c/540x540_70/img-master/img/2017/09/18/00/34/44/65014429_p3_master1200.jpg",
+                        "large": "https://i.pximg.net/c/600x1200_90_webp/img-master/img/2017/09/18/00/34/44/65014429_p3_master1200.jpg",
+                        "original": "https://i.pximg.net/img-original/img/2017/09/18/00/34/44/65014429_p3.jpg"
+                    }
+                }
+            ],
+            "total_view": 1051434,
+            "total_bookmarks": 49917,
+            "is_bookmarked": false,
+            "visible": true,
+            "is_muted": false
+        },
+        {
+            "etc": "etc"
+        }
+    ],
+    "search_span_limit": 31536000
+}
+```
+
 ## https://app-api.pixiv.net/v1/search/novel
 
 Retrieves a list of novels from the specified search terms.
